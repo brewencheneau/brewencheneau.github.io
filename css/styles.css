@@ -1,11 +1,3 @@
-#texte {
-    display :flex;
-    flex-direction: row;
-}
 #amelia {
-    display : flex;
-    float: left;
-}
-#navbar {
     float: left;
 }
