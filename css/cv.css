@@ -144,3 +144,7 @@ body {
 #passions .container .classement3 { background-position: 0 -56px; }
 #passions .container .classement4 { background-position: 0 -28px; }
 #passions .container .classement5 { background-position: 0 0px; }
+
+#container {
+    float: left;
+}
