@@ -1,59 +1,34 @@
-body {
-    padding-top: 50px;
-}
-.cadreCV {
-    padding-bottom: 15px;
-    background: white;
-}
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 26 déc. 2023, 23:10:23
+    Author     : Bréwen
+*/
+
+body { padding-top: 50px; }
+.cadreCV { padding-bottom: 15px; background: white; }
 /****************************************
 * En-tête du CV
 ****************************************/
-#cv-entete {
-    margin-top: -45px;
-    width: 100%;
-}
-#cv-photo {
-    width: 172px;
-    height: 172px;
-    border-radius: 50%;
-    overflow: hidden;
-    padding: 5px;
-    background: #eee;
-    display: inline-block;
-}
-#cv-photo img {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-}
-#cv-intro h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 2.4em;
-    font-weight: 700;
-    letter-spacing: -1px;
-}
-#cv-intro h1 span {
-    color: rgb(226,0,26);
-}
-#cv-intro::after {
-    background: url('images/ligne.png'); /* Dossier "images" est un sous-
-     dossier de "css" (à créer) */
-    width: 100%;
-    height: 3px;
-    margin-top: 15px;
-    content: '';
-    display: block;
-}
-
+#cv-entete { margin-top: -45px; width: 100%;}
+#cv-photo { width: 172px; height: 172px; border-radius: 50%; overflow: hidden; padding: 5px;
+ background: #eee; display: inline-block; }
+#cv-photo img { width: 160px; height: 160px; border-radius: 50%; }
+#cv-intro h1 { margin: 0; padding: 0; font-size: 2.4em; font-weight: 700;
+ letter-spacing: -1px;}
+#cv-intro h1 span { color: red; }
+#cv-intro::after { background: url('images/ligne.png'); /* Dossier "images" est un sous-
+ dossier de "css" (à créer) */
+ width: 100%; height: 3px; margin-top: 15px; content: ''; display: block;}
 /****************************************
 * Rubriques
 ****************************************/
 .rubrique { margin-bottom: 15px; }
-.rubrique h2 { color: rgb(226,0,26); }
+.rubrique h2 { color: red; }
 .rubrique h2::before{ margin-right: 5px; }
 .rubrique p{ font-size: 1.3em; line-height: 1.5em; }
-
 /******************************************
 * Parcours scolaire
 ******************************************/
@@ -130,21 +105,8 @@ body {
 #competences .container .classement4 { background-position: 0 -28px; }
 #competences .container .classement5 { background-position: 0 0px; }
 /******************************************
-* Passions
+*     Passions
 ******************************************/
-#passions .container {
- display: flex; flex-direction: row; justify-content: space-between; }
-#passions .container .libelle { font-size: 1.3em; }
-#competences .container .classement {
- background: scroll transparent url(images/Red-Rating-Stars.png) no-repeat;
- width: 160px; height: 27px; }
-#passions .container .classement0 { background-position: 0 -142px; }
-#passions .container .classement1 { background-position: 0 -112px; }
-#passions .container .classement2 { background-position: 0 -84px; }
-#passions .container .classement3 { background-position: 0 -56px; }
-#passions .container .classement4 { background-position: 0 -28px; }
-#passions .container .classement5 { background-position: 0 0px; }
-
-#container {
-    float: left;
-}
+.passion{ color: #fff; display: inline-block; margin-right: 5px;
+          margin-bottom: 5px; padding: 5px 5px 5px 5px; background: #000;
+          position: relative; font-size: 1.2em; border-radius: 10px; }
